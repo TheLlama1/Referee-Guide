@@ -1,0 +1,1146 @@
+[
+  {
+    "id": 1,
+    "law": "Law 11 - Offside",
+    "question": "An attacker in an offside position receives the ball directly from an opponent's deliberate handball. What is the referee's decision?",
+    "options": [
+      {
+        "text": "The player is not penalized for offside. Play continues, or a Direct Free Kick (DFK) is awarded for the handball depending on advantage.",
+        "isCorrect": true
+      },
+      {
+        "text": "Penalize the attacker for an offside offense because a handball does not constitute a deliberate play by a defender.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) for offside from the position where the attacker touched the ball.",
+        "isCorrect": false
+      },
+      {
+        "text": "Stop play immediately, restart with a dropped ball for the defending team's goalkeeper.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A defender tackles an attacking player inside their own penalty area carelessly, completely missing the ball but tripping the opponent. The attack was not a clear goal-scoring opportunity. What action should the referee take?",
+    "options": [
+      {
+        "text": "Award a Penalty Kick and issue no disciplinary card.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award a Penalty Kick and issue a Caution (Yellow Card) for unsporting behavior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) to the attacking team and no card.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow play to continue if the defender did not have malicious intent.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "law": "Law 3 - The Players",
+    "question": "While the ball is in play, a substituted player who is warming up runs onto the field and trips an opposing attacker inside the penalty area, stopping a promising attack. What is the correct decision?",
+    "options": [
+      {
+        "text": "Award a Penalty Kick and Caution (Yellow Card) the substituted player.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) from where the trip occurred and Caution (Yellow Card) the player.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a Penalty Kick and Send Off (Red Card) the substituted player for violent conduct.",
+        "isCorrect": false
+      },
+      {
+        "text": "Restart play with a dropped ball and issue a verbal warning to the team coach.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "law": "Law 14 - The Penalty Kick",
+    "question": "During a penalty kick, the attacking team's kicker kicks the ball forward, and a teammate runs from outside the arc and scores directly. What is the referee's decision?",
+    "options": [
+      {
+        "text": "Disallow the goal, Caution (Yellow Card) the teammate for encroachment, and restart with an Indirect Free Kick (IFK) for the defending team.",
+        "isCorrect": true
+      },
+      {
+        "text": "Allow the goal since the kicker passed the ball forward legally.",
+        "isCorrect": false
+      },
+      {
+        "text": "Order the penalty kick to be retaken and issue a verbal warning to the encroaching teammate.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disallow the goal and restart play with a goal kick for the defending team.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A defender deliberately uses their hand to block a shot on target inside their own penalty area. The ball defects off the defender's hand and goes straight into the net. What is the decision?",
+    "options": [
+      {
+        "text": "Award the goal and Caution (Yellow Card) the defender for unsporting behavior.",
+        "isCorrect": true
+      },
+      {
+        "text": "Disallow the goal, award a Penalty Kick, and Send Off (Red Card) the defender for DOGSO.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award the goal and Send Off (Red Card) the defender for an intentional handball offense.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award the goal and issue a verbal warning without showing any disciplinary card.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "law": "Law 8 - The Start and Restart of Play",
+    "question": "A kick-off is taken to start the second half. The kicker kicks the ball directly backward into their own net without any other player touching it. What is the restart?",
+    "options": [
+      {
+        "text": "Award a Corner Kick to the opposing team.",
+        "isCorrect": true
+      },
+      {
+        "text": "An official goal is awarded to the opposing team.",
+        "isCorrect": false
+      },
+      {
+        "text": "The kick-off is retaken because the ball must travel forward first.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a dropped ball to the opposing team's goalkeeper.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A goalkeeper catches the ball cleanly inside their penalty area. An opposing forward stands directly in front of the goalkeeper, blocking them from throwing or kicking the ball away into play. What is the referee's decision?",
+    "options": [
+      {
+        "text": "Stop play, award an Indirect Free Kick (IFK) to the goalkeeper's team, and Caution (Yellow Card) the forward.",
+        "isCorrect": true
+      },
+      {
+        "text": "Stop play, award a Direct Free Kick (DFK) to the goalkeeper's team, and no card.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow play to continue as long as no physical contact occurs.",
+        "isCorrect": false
+      },
+      {
+        "text": "Stop play, award a dropped ball to the goalkeeper, and issue a verbal warning to the forward.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "law": "Law 15 - The Throw-in",
+    "question": "A player takes a throw-in correctly, but throws the ball directly into their own goalkeeper's hands inside the penalty area. The goalkeeper catches it. What is the decision?",
+    "options": [
+      {
+        "text": "Award an Indirect Free Kick (IFK) to the opposing team from the location where the goalkeeper touched the ball.",
+        "isCorrect": true
+      },
+      {
+        "text": "Allow play to continue since a throw-in can be played safely to the goalkeeper.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a Penalty Kick to the opposing team for illegal handling by the goalkeeper.",
+        "isCorrect": false
+      },
+      {
+        "text": "Order the throw-in to be retaken by the opposing team.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "law": "Law 11 - Offside",
+    "question": "An attacker stands in an offside position but away from the ball. A defender deliberately kicks the ball back toward their own goalkeeper, but the pass is short and intercepted by the offside attacker, who scores. Decision?",
+    "options": [
+      {
+        "text": "Allow the goal. The attacker is not penalized because the ball was played deliberately by an opponent.",
+        "isCorrect": true
+      },
+      {
+        "text": "Disallow the goal for an offside offense and restart with an Indirect Free Kick (IFK).",
+        "isCorrect": false
+      },
+      {
+        "text": "Disallow the goal and restart with a dropped ball for the goalkeeper.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow the goal, but Caution (Yellow Card) the attacker for gaining an unfair advantage.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A player uses offensive, insulting, or abusive language directly toward the referee during a stoppage in play. What action should the referee take?",
+    "options": [
+      {
+        "text": "Send Off (Red Card) the player. The restart depends on the initial reason play was stopped.",
+        "isCorrect": true
+      },
+      {
+        "text": "Send Off (Red Card) the player and restart play with an Indirect Free Kick (IFK) from where the player stood.",
+        "isCorrect": false
+      },
+      {
+        "text": "Caution (Yellow Card) the player for unsporting behavior and restart with a dropped ball.",
+        "isCorrect": false
+      },
+      {
+        "text": "Send Off (Red Card) the player and restart with a Direct Free Kick (DFK) from the center spot.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "law": "Law 14 - The Penalty Kick",
+    "question": "The referee signals for a penalty kick. The designated kicker runs up, completes a full 360-degree feint turn at the end of their run, and kicks the ball into the net. Decision?",
+    "options": [
+      {
+        "text": "Disallow the goal, Caution (Yellow Card) the kicker for illegal feinting, and restart with an Indirect Free Kick (IFK) for the defending team.",
+        "isCorrect": true
+      },
+      {
+        "text": "Order the penalty kick to be retaken and issue a Caution (Yellow Card) to the kicker.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow the goal as feinting is permitted anywhere during the run-up.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disallow the goal and restart with a goal kick for the defending team.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A defender tackles an opponent using excessive force, jumping with both feet off the ground and making contact with exposed studs on the attacker's shin, outside the penalty area. Decision?",
+    "options": [
+      {
+        "text": "Award a Direct Free Kick (DFK) and Send Off (Red Card) the defender for serious foul play.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award a Direct Free Kick (DFK) and Caution (Yellow Card) the defender for a reckless tackle.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) and Send Off (Red Card) the defender.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow play to continue if the defender touched the ball slightly before contact.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "law": "Law 3 - The Players",
+    "question": "During play, the referee notices Team A has 12 players on the pitch, but Team B is currently in possession of the ball in an active attacking move. When should the referee stop play?",
+    "options": [
+      {
+        "text": "Wait until the active attacking move is completed, then stop play and penalize Team A.",
+        "isCorrect": true
+      },
+      {
+        "text": "Stop play immediately regardless of who has possession of the ball.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow play to continue until the ball goes out of bounds naturally.",
+        "isCorrect": false
+      },
+      {
+        "text": "Stop play immediately, award a Penalty Kick to Team B, and Caution the extra player.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "law": "Law 13 - Free Kicks",
+    "question": "An attacking team is awarded an Indirect Free Kick (IFK) inside their opponent's penalty area. The kicker strikes the ball directly into the net without any other player touching it. Restart?",
+    "options": [
+      { "text": "Award a Goal Kick to the defending team.", "isCorrect": true },
+      {
+        "text": "Allow the goal and restart with a kick-off at the center circle.",
+        "isCorrect": false
+      },
+      {
+        "text": "Order the Indirect Free Kick (IFK) to be retaken.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a Corner Kick to the attacking team.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A goalkeeper catches the ball during play, walks to the edge of their penalty area, and violently punches an opposing forward who was standing peacefully. What is the decision?",
+    "options": [
+      {
+        "text": "Award a Penalty Kick to the opposing team and Send Off (Red Card) the goalkeeper for violent conduct.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) from where the punch occurred and Send Off (Red Card) the goalkeeper.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a Penalty Kick and Caution (Yellow Card) the goalkeeper for unsporting behavior.",
+        "isCorrect": false
+      },
+      {
+        "text": "Restart play with a dropped ball and Send Off (Red Card) the goalkeeper.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "An attacking forward uses a deliberate trick, such as flicking the ball up with their foot and heading it back to their own goalkeeper, to circumvent the backpass rule. The goalkeeper catches it. Decision?",
+    "options": [
+      {
+        "text": "Stop play, award an Indirect Free Kick (IFK) to the opposing team from where the forward initiated the trick, and Caution (Yellow Card) the forward.",
+        "isCorrect": true
+      },
+      {
+        "text": "Allow play to continue because the goalkeeper used their hands on a header.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) from the goalkeeper's position and issue a verbal warning.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a Direct Free Kick (DFK) to the opposing team and Caution (Yellow Card) the forward.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "law": "Law 11 - Offside",
+    "question": "An attacking player stands in an offside position. A teammate shoots on target, and the ball deflects off the goalkeeper's body directly to the offside attacker, who scores. Decision?",
+    "options": [
+      {
+        "text": "Disallow the goal. The attacker is penalized for offside because a save by the goalkeeper does not reset offside status.",
+        "isCorrect": true
+      },
+      {
+        "text": "Allow the goal because the ball came off a defending player's body.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disallow the goal and restart play with a dropped ball for the goalkeeper.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow the goal but issue a verbal warning to the attacker.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A defender commits a careless tackle that stops a promising attack outside their penalty area. The referee applies advantage and the attack continues. At the next stoppage, what disciplinary action should be taken?",
+    "options": [
+      {
+        "text": "No card is issued, because the promising attack was not stopped due to the advantage applied.",
+        "isCorrect": true
+      },
+      {
+        "text": "Issue a Caution (Yellow Card) to the defender for stopping a promising attack.",
+        "isCorrect": false
+      },
+      {
+        "text": "Issue a Caution (Yellow Card) to the defender for a reckless tackle attempt.",
+        "isCorrect": false
+      },
+      {
+        "text": "Issue a verbal warning and force the defender to leave the pitch for two minutes.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "law": "Law 4 - The Players' Equipment",
+    "question": "A player scores a goal and immediately removes their jersey to celebrate, revealing an identical second jersey underneath. What action should the referee take?",
+    "options": [
+      {
+        "text": "Allow the goal and Caution (Yellow Card) the player for removing their jersey.",
+        "isCorrect": true
+      },
+      {
+        "text": "Allow the goal and do not issue a card because they still have a matching jersey underneath.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disallow the goal for an illegal celebration and restart with an Indirect Free Kick (IFK).",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow the goal and issue a verbal warning only.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A substitute player sitting on the technical bench throws a water bottle onto the field of play, striking an opposing player while the ball is in play. What is the correct restart?",
+    "options": [
+      {
+        "text": "Direct Free Kick (DFK) or Penalty Kick for the opposing team from the location where the object struck the player, and Send Off (Red Card) the substitute.",
+        "isCorrect": true
+      },
+      {
+        "text": "Indirect Free Kick (IFK) from where the ball was located and Caution (Yellow Card) the substitute.",
+        "isCorrect": false
+      },
+      {
+        "text": "Dropped ball at the location where the ball was located and Send Off (Red Card) the substitute.",
+        "isCorrect": false
+      },
+      {
+        "text": "Direct Free Kick (DFK) from the technical area line and a Caution (Yellow Card) to the substitute.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "law": "Law 14 - The Penalty Kick",
+    "question": "A penalty kick is taken. The ball strikes the post, rebounds directly back to the original kicker without touching any other player, and the kicker scores. What is the decision?",
+    "options": [
+      {
+        "text": "Disallow the goal and award an Indirect Free Kick (IFK) to the defending team for a double-touch offense.",
+        "isCorrect": true
+      },
+      {
+        "text": "Allow the goal since the ball rebounded off a structural part of the field.",
+        "isCorrect": false
+      },
+      {
+        "text": "Order the penalty kick to be retaken by the attacking team.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disallow the goal and award a goal kick to the defending team.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A defender tackles an opponent recklessly outside their own penalty area. What is the correct restart and disciplinary option?",
+    "options": [
+      {
+        "text": "Award a Direct Free Kick (DFK) and Caution (Yellow Card) the defender.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) and Caution (Yellow Card) the defender.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a Direct Free Kick (DFK) and issue no disciplinary card.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a Direct Free Kick (DFK) and Send Off (Red Card) the defender.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "law": "Law 11 - Offside",
+    "question": "An attacking player running in an offside position does not touch the ball, but actively blocks the line of vision of the defending goalkeeper, preventing them from saving a long shot. Decision?",
+    "options": [
+      {
+        "text": "Penalize the attacker for offside due to interfering with an opponent. Restart with an Indirect Free Kick (IFK).",
+        "isCorrect": true
+      },
+      {
+        "text": "Allow the goal since the attacker never physically touched the ball.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disallow the goal and restart play with a dropped ball for the goalkeeper.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow the goal but Caution (Yellow Card) the attacker for unsporting behavior.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A goalkeeper handles the ball inside their own penalty area after it was deliberately kicked to them by a teammate from a throw-in. What is the correct restart?",
+    "options": [
+      {
+        "text": "Award an Indirect Free Kick (IFK) to the opposing team.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award a Penalty Kick to the opposing team.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow play to continue as a throw-in pass is not restricted.",
+        "isCorrect": false
+      },
+      {
+        "text": "Order the throw-in to be retaken by the attacking team.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "law": "Law 5 - The Referee",
+    "question": "A match is being played under violent weather conditions. Lightning strikes near the field. What authority does the referee have?",
+    "options": [
+      {
+        "text": "The referee has full authority to suspend or abandon the match at their discretion for safety reasons.",
+        "isCorrect": true
+      },
+      {
+        "text": "The referee must get permission from both team captains before suspending the match.",
+        "isCorrect": false
+      },
+      {
+        "text": "The referee can only suspend the match if instructed by the stadium safety manager.",
+        "isCorrect": false
+      },
+      {
+        "text": "The referee must allow play to continue until the official end of the half.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A defender targets an opponent's ankle with an intentional, violent stamp while away from active play. The ball is currently on the other side of the field. Decision?",
+    "options": [
+      {
+        "text": "Stop play immediately, Send Off (Red Card) the defender for violent conduct, and restart with a Direct Free Kick (DFK) where the foul occurred.",
+        "isCorrect": true
+      },
+      {
+        "text": "Stop play, Send Off (Red Card) the defender, and restart with an Indirect Free Kick (IFK) where the ball was located.",
+        "isCorrect": false
+      },
+      {
+        "text": "Wait until the ball goes out of play, then Send Off (Red Card) the defender.",
+        "isCorrect": false
+      },
+      {
+        "text": "Stop play, Caution (Yellow Card) the defender, and restart with a dropped ball.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "law": "Law 16 - The Goal Kick",
+    "question": "A goal kick is taken by the defending team. The kicker strikes the ball, and it travels directly into their own net without touching any other player. What is the correct decision?",
+    "options": [
+      {
+        "text": "Award a Corner Kick to the opposing team.",
+        "isCorrect": true
+      },
+      {
+        "text": "An official goal is awarded to the opposing team.",
+        "isCorrect": false
+      },
+      {
+        "text": "The goal kick must be retaken because the ball did not leave the penalty area.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a dropped ball to the opposing team inside the penalty area.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "An attacking forward is running cleanly towards goal in an obvious goal-scoring opportunity (DOGSO). A defender pulls the attacker's jersey outside the penalty area, stopping the move. Decision?",
+    "options": [
+      {
+        "text": "Award a Direct Free Kick (DFK) to the attacking team and Send Off (Red Card) the defender.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award a Direct Free Kick (DFK) and Caution (Yellow Card) the defender.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a Penalty Kick and Send Off (Red Card) the defender.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) and Send Off (Red Card) the defender.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "law": "Law 14 - The Penalty Kick",
+    "question": "A penalty kick is taken. The goalkeeper moves forward off their line before the ball is kicked. The goalkeeper saves the ball cleanly with their hands. Decision?",
+    "options": [
+      {
+        "text": "Order the penalty kick to be retaken and issue a verbal warning to the goalkeeper (or Caution if it is a repeat offense).",
+        "isCorrect": true
+      },
+      {
+        "text": "Allow play to continue since the save was executed cleanly.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) to the attacking team from the 6-yard line.",
+        "isCorrect": false
+      },
+      {
+        "text": "Order the penalty kick to be retaken and immediately issue a Red Card to the goalkeeper.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A player handles the ball intentionally to stop an opposing player from completing a simple pass in the center circle. No tactical advantage or promising attack was compromised. Action?",
+    "options": [
+      {
+        "text": "Award a Direct Free Kick (DFK) and issue no disciplinary card.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award a Direct Free Kick (DFK) and issue a Caution (Yellow Card) for handball.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) and issue no card.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow play to continue unless the handball was completely blatant.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "law": "Law 3 - The Players",
+    "question": "A player who was sent off (Red Card) earlier in the match sneaks back onto the field of play while the match is active and plays the ball. What is the decision?",
+    "options": [
+      {
+        "text": "Stop play, remove the player, restart with a Direct Free Kick (DFK) or Penalty Kick for the opposing team from where the player touched the ball.",
+        "isCorrect": true
+      },
+      {
+        "text": "Stop play, remove the player, and restart with an Indirect Free Kick (IFK) from where the ball was located.",
+        "isCorrect": false
+      },
+      {
+        "text": "Stop play and award a dropped ball to the opposing team.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow play to continue until the next natural stoppage, then remove the player.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A defender handles the ball inside their own penalty area deliberately to deny an obvious goal-scoring opportunity. The referee awards a penalty kick. What card sanction applies to the defender?",
+    "options": [
+      {
+        "text": "Send Off (Red Card) the defender for a deliberate handball denying an obvious goal-scoring opportunity.",
+        "isCorrect": true
+      },
+      {
+        "text": "Caution (Yellow Card) the defender, downgrade from a Red Card because a penalty kick was awarded.",
+        "isCorrect": false
+      },
+      {
+        "text": "No card sanction applies because the penalty kick restores the goal-scoring opportunity.",
+        "isCorrect": false
+      },
+      {
+        "text": "Send Off (Red Card) the defender and disqualify them from the next three matches automatically.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "law": "Law 15 - The Throw-in",
+    "question": "A player takes a throw-in, but fails to stand behind or on the touchline, placing both feet entirely inside the field of play. What is the correct decision?",
+    "options": [
+      {
+        "text": "Award a throw-in to the opposing team from the same location.",
+        "isCorrect": true
+      },
+      {
+        "text": "Order the same player to retake the throw-in correctly.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow play to continue as long as the ball was thrown over the head correctly.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) to the opposing team.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "An attacking forward goes past the goalkeeper inside the penalty area. The goalkeeper trips the attacker deliberately in a clear attempt to play the ball, denying an obvious goal-scoring opportunity. Penalty kick is awarded. What is the disciplinary card?",
+    "options": [
+      {
+        "text": "Caution (Yellow Card) the goalkeeper. The sanction is downgraded from a Red Card because it was an honest attempt to play the ball during a penalty award.",
+        "isCorrect": true
+      },
+      {
+        "text": "Send Off (Red Card) the goalkeeper for denying an obvious goal-scoring opportunity (DOGSO).",
+        "isCorrect": false
+      },
+      {
+        "text": "Issue no card to the goalkeeper because a penalty kick was awarded.",
+        "isCorrect": false
+      },
+      {
+        "text": "Caution (Yellow Card) the goalkeeper and force them to swap places with an outfield player.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "law": "Law 11 - Offside",
+    "question": "An attacker is standing in an offside position. A teammate takes a shot that strikes an official match referee standing inside the penalty area, rebounds directly to the attacker, who scores. Decision?",
+    "options": [
+      {
+        "text": "Stop play and restart with a dropped ball. The referee is a structural component, but a dropped ball must occur if a ball hits an official and goes to an advantage.",
+        "isCorrect": true
+      },
+      {
+        "text": "Penalize the attacker for an offside offense and restart with an Indirect Free Kick (IFK).",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow the goal since the ball did not come from an attacking teammate's direct pass.",
+        "isCorrect": false
+      },
+      { "text": "Award a goal kick to the defending team.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 36,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A defender standing inside their own penalty area strikes a direct teammate violently with a punch during a stoppage in play. Decision?",
+    "options": [
+      {
+        "text": "Send Off (Red Card) the defender for violent conduct. Restart play based on the original reason for the stoppage.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award a Penalty Kick to the opposing team and Send Off (Red Card) the defender.",
+        "isCorrect": false
+      },
+      {
+        "text": "Caution (Yellow Card) the defender and restart play with an Indirect Free Kick (IFK).",
+        "isCorrect": false
+      },
+      {
+        "text": "Send Off (Red Card) the defender and restart with a dropped ball for the goalkeeper.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A player delays the restart of play intentionally by kicking the ball far away after the referee blew the whistle for a throw-in. Action?",
+    "options": [
+      {
+        "text": "Caution (Yellow Card) the player for delaying the restart of play. Maintain the original throw-in restart.",
+        "isCorrect": true
+      },
+      {
+        "text": "Issue a verbal warning only and maintain the throw-in restart.",
+        "isCorrect": false
+      },
+      {
+        "text": "Caution (Yellow Card) the player and turn the throw-in over to the opposing team.",
+        "isCorrect": false
+      },
+      {
+        "text": "Caution (Yellow Card) the player and upgrade the restart to an Indirect Free Kick (IFK).",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "law": "Law 9 - The Ball In and Out of Play",
+    "question": "The ball strikes the referee standing inside the field of play and remains on the pitch, but possession changes directly from Team A to Team B. What is the correct procedure?",
+    "options": [
+      {
+        "text": "Stop play immediately and restart with a dropped ball for Team A (the team that last touched the ball).",
+        "isCorrect": true
+      },
+      {
+        "text": "Allow play to continue because the referee is a natural part of the field.",
+        "isCorrect": false
+      },
+      {
+        "text": "Stop play and award an Indirect Free Kick (IFK) to Team A.",
+        "isCorrect": false
+      },
+      {
+        "text": "Stop play and restart with a coin toss between both team captains.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "An attacking player tackles the defending goalkeeper carelessly while the goalkeeper is holding the ball securely in their hands. Decision?",
+    "options": [
+      {
+        "text": "Award a Direct Free Kick (DFK) to the goalkeeper's team and no card sanction.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) to the goalkeeper's team and no card sanction.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a Direct Free Kick (DFK) and Caution (Yellow Card) the attacking player.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow play to continue as long as the contact was minimal.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "law": "Law 17 - The Corner Kick",
+    "question": "A player takes a corner kick. The ball travels directly into the opposing team's net without touching any other player. Decision?",
+    "options": [
+      {
+        "text": "Allow the goal. A goal can be scored directly from a corner kick against the opposing team.",
+        "isCorrect": true
+      },
+      {
+        "text": "Disallow the goal and order the corner kick to be retaken.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disallow the goal and award a goal kick to the defending team.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disallow the goal and award a dropped ball to the goalkeeper.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A player bites an opponent during an active fight on the pitch. What is the correct disciplinary action and restart?",
+    "options": [
+      {
+        "text": "Send Off (Red Card) the player for violent conduct, restart with a Direct Free Kick (DFK) or Penalty Kick.",
+        "isCorrect": true
+      },
+      {
+        "text": "Send Off (Red Card) the player, restart with an Indirect Free Kick (IFK).",
+        "isCorrect": false
+      },
+      {
+        "text": "Caution (Yellow Card) the player for unsporting behavior, restart with a DFK.",
+        "isCorrect": false
+      },
+      {
+        "text": "Send Off (Red Card) the player, restart play with a dropped ball.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "law": "Law 3 - The Players",
+    "question": "A team wishes to make a substitution during an active match. When is the substitute permitted to enter the field of play?",
+    "options": [
+      {
+        "text": "During a stoppage in play, at the half-way line, after the player being replaced has left, and upon receiving a signal from the referee.",
+        "isCorrect": true
+      },
+      {
+        "text": "At any time while the ball is out of play, without waiting for the referee's explicit signal.",
+        "isCorrect": false
+      },
+      {
+        "text": "During play as long as the player being replaced reaches the touchline first.",
+        "isCorrect": false
+      },
+      {
+        "text": "Only during the half-time interval or before extra time periods.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A defender blocks an attacking pass with a deliberate handball outside their penalty area, breaking up a promising attacking build-up. Decision?",
+    "options": [
+      {
+        "text": "Award a Direct Free Kick (DFK) and Caution (Yellow Card) the defender for unsporting behavior.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award a Direct Free Kick (DFK) and issue no disciplinary card sanction.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) and Caution (Yellow Card) the defender.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a Direct Free Kick (DFK) and Send Off (Red Card) the defender.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "law": "Law 11 - Offside",
+    "question": "An attacker is in an offside position when a teammate shoots. The ball hits the crossbar and bounces out to the attacker, who kicks it into the net. Decision?",
+    "options": [
+      {
+        "text": "Disallow the goal. The attacker is penalized for offside because a rebound off the woodwork does not reset offside status.",
+        "isCorrect": true
+      },
+      {
+        "text": "Allow the goal since the ball came off a structural item rather than a pass.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disallow the goal and award a goal kick to the defending team.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow the goal but Caution (Yellow Card) the attacker for unsporting behavior.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A player challenges an opponent for the ball in a manner that is deemed reckless by the referee, stepping heavily on the opponent's foot. Restart and card?",
+    "options": [
+      {
+        "text": "Award a Direct Free Kick (DFK) and Caution (Yellow Card) the player.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award a Direct Free Kick (DFK) and issue no card sanction.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) and Caution (Yellow Card) the player.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award a Direct Free Kick (DFK) and Send Off (Red Card) the player.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "law": "Law 14 - The Penalty Kick",
+    "question": "A penalty kick is awarded. Before the ball is kicked, the defending goalkeeper encroaches off the line, and the kicker shoots the ball completely wide of the target. Decision?",
+    "options": [
+      {
+        "text": "Goal kick. The penalty is not retaken because the goalkeeper's encroachment did not clearly influence or impact the kicker.",
+        "isCorrect": true
+      },
+      {
+        "text": "Order the penalty kick to be retaken and issue a Caution (Yellow Card) to the goalkeeper.",
+        "isCorrect": false
+      },
+      {
+        "text": "Order the penalty kick to be retaken and issue a verbal warning to the goalkeeper.",
+        "isCorrect": false
+      },
+      {
+        "text": "Award an Indirect Free Kick (IFK) to the attacking team from the 6-yard mark.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A player yells loudly at an opponent to distract them right as they are about to head the ball inside the penalty area. What is the decision?",
+    "options": [
+      {
+        "text": "Stop play, award an Indirect Free Kick (IFK) to the opposing team, and Caution (Yellow Card) the player for unsporting behavior.",
+        "isCorrect": true
+      },
+      {
+        "text": "Award a Penalty Kick to the opposing team and Caution (Yellow Card) the player.",
+        "isCorrect": false
+      },
+      {
+        "text": "Allow play to continue as verbal strategies are a natural part of competitive play.",
+        "isCorrect": false
+      },
+      {
+        "text": "Stop play, award a dropped ball to the defending team, and issue a verbal warning.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "law": "Law 3 - The Players",
+    "question": "A team sheet is submitted with 11 starters. Ten minutes before the match begins, a starting defender gets injured during warm-ups. Can the team replace him with a named substitute?",
+    "options": [
+      {
+        "text": "Yes. He can be replaced by a named substitute without it counting as a used tactical substitution during the match.",
+        "isCorrect": true
+      },
+      {
+        "text": "Yes, but it counts as one of their official substitution windows during the match.",
+        "isCorrect": false
+      },
+      {
+        "text": "No, the team must play the match with 10 players or choose to forfeit.",
+        "isCorrect": false
+      },
+      {
+        "text": "Yes, but they must get written consent from the opposing team's manager first.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "law": "Law 12 - Fouls and Misconduct",
+    "question": "A defender commits a reckless challenge inside their own penalty area, stopping a promising attacking move. A penalty kick is awarded. What card sanction applies?",
+    "options": [
+      {
+        "text": "Caution (Yellow Card) the defender. The reckless nature of the challenge requires a card regardless of the location.",
+        "isCorrect": true
+      },
+      {
+        "text": "No card sanction applies because the penalty kick downgrades tactical offenses entirely.",
+        "isCorrect": false
+      },
+      {
+        "text": "Send Off (Red Card) the defender because it stopped a promising attacking move inside the box.",
+        "isCorrect": false
+      },
+      {
+        "text": "Caution (Yellow Card) the defender and force them to leave the field for 5 minutes.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "law": "Law 11 - Offside",
+    "question": "An attacking forward stands in an offside position. A teammate passes the ball forward, and a defender intentionally stretches out their leg to block it. The ball clips the defender's foot and goes straight to the offside forward, who scores. Decision?",
+    "options": [
+      {
+        "text": "Allow the goal. An intentional, deliberate action by a defender to play the ball resets the offside status of an opponent.",
+        "isCorrect": true
+      },
+      {
+        "text": "Disallow the goal for an offside offense because a deflection off a defender does not count as controlled possession.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disallow the goal and restart play with an Indirect Free Kick (IFK) for the defending team.",
+        "isCorrect": false
+      },
+      {
+        "text": "Disallow the goal and restart play with a dropped ball for the goalkeeper.",
+        "isCorrect": false
+      }
+    ]
+  }
+]
