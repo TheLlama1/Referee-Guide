@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { createClient } from "../utils/supabase";
 import localQuestionsPool from "../data/quiz.json";
 
 interface AnswerOption {
@@ -18,9 +17,6 @@ interface Question {
 }
 
 export default function QuizPage() {
-  const supabase = createClient();
-  const [user, setUser] = useState<any>(null);
-
   const [quizQuestions, setQuizQuestions] = useState<Question[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<
@@ -31,18 +27,6 @@ export default function QuizPage() {
   // Configuration Screen States
   const [isStarted, setIsStarted] = useState(false);
   const [chosenLength, setChosenLength] = useState<number>(20);
-  const [isSaving, setIsSaving] = useState(false);
-
-  // Check user session status on mount
-  useEffect(() => {
-    const checkUser = async () => {
-      const {
-        data: { session },
-      } = await supabase.auth.getSession();
-      setUser(session?.user ?? null);
-    };
-    checkUser();
-  }, [supabase]);
 
   const startQuiz = () => {
     const shuffled = [...localQuestionsPool].sort(() => 0.5 - Math.random());
@@ -77,27 +61,8 @@ export default function QuizPage() {
     }
   };
 
-  const handleSubmitQuiz = async () => {
+  const handleSubmitQuiz = () => {
     setIsFinished(true);
-
-    // Save score to database if the user is authenticated
-    if (user) {
-      setIsSaving(true);
-      const { correctCount, percentage } = calculateScore();
-
-      try {
-        await supabase.from("quiz_results").insert({
-          user_id: user.id,
-          score: correctCount,
-          total_questions: quizQuestions.length,
-          percentage: percentage,
-        });
-      } catch (err) {
-        console.error("Failed to sync evaluation metrics:", err);
-      } finally {
-        setIsSaving(false);
-      }
-    }
   };
 
   const calculateScore = () => {
@@ -149,7 +114,7 @@ export default function QuizPage() {
                     key={lengthOption}
                     type="button"
                     onClick={() => setChosenLength(lengthOption)}
-                    className={`rounded-xl border py-3 text-sm font-bold transition cursor-pointer ${
+                    className={`rounded-xl border py-3 text-sm font-bold transition ${
                       isSelected
                         ? "border-emerald-500 bg-emerald-500/10 text-emerald-400 shadow-md shadow-emerald-500/5"
                         : "border-slate-800 bg-slate-900 text-slate-400 hover:border-slate-700 hover:text-white"
@@ -166,7 +131,7 @@ export default function QuizPage() {
             <button
               type="button"
               onClick={startQuiz}
-              className="w-full rounded-xl bg-emerald-500 py-3 text-sm font-semibold text-slate-950 shadow-md transition hover:bg-emerald-400 cursor-pointer"
+              className="w-full rounded-xl bg-emerald-500 py-3 text-sm font-semibold text-slate-950 shadow-md transition hover:bg-emerald-400"
             >
               Begin Certification Test
             </button>
@@ -180,8 +145,8 @@ export default function QuizPage() {
   if (isFinished) {
     const { correctCount, percentage, grade } = calculateScore();
     return (
-      <div className="min-h-[calc(100vh-4rem)] bg-slate-900 px-6 py-12 text-slate-100 flex items-center justify-center">
-        <div className="w-full max-w-xl rounded-2xl border border-slate-800 bg-slate-950 p-8 text-center shadow-xl">
+      <div className="min-h-[calc(100vh-4rem)] bg-slate-900 px-6 py-12 text-slate-100">
+        <div className="mx-auto max-w-xl rounded-2xl border border-slate-800 bg-slate-950 p-8 text-center shadow-xl">
           <span className="text-xs font-bold uppercase tracking-wider text-slate-500">
             Official Evaluation
           </span>
@@ -202,24 +167,16 @@ export default function QuizPage() {
             {quizQuestions.length} match scenarios.
           </p>
 
-          {user && (
-            <p className="mt-3 text-xs text-slate-500 italic">
-              {isSaving
-                ? "Syncing metrics..."
-                : "Score metrics saved to account dashboard profile."}
-            </p>
-          )}
-
           <div className="mt-8 flex flex-col gap-3">
             <button
               onClick={handleReset}
-              className="w-full rounded-xl bg-emerald-500 py-3 text-sm font-semibold text-slate-950 hover:bg-emerald-400 transition shadow-md cursor-pointer"
+              className="w-full rounded-xl bg-emerald-500 py-3 text-sm font-semibold text-slate-950 hover:bg-emerald-400 transition shadow-md"
             >
               Configure a New Test Setup
             </button>
             <Link
               href="/chat"
-              className="w-full block rounded-xl border border-slate-800 bg-slate-900/50 py-3 text-sm font-semibold text-slate-300 hover:bg-slate-800 hover:text-white transition cursor-pointer"
+              className="w-full block rounded-xl border border-slate-800 bg-slate-900/50 py-3 text-sm font-semibold text-slate-300 hover:bg-slate-800 hover:text-white transition"
             >
               Review Rulebook with AI
             </Link>
@@ -229,8 +186,11 @@ export default function QuizPage() {
     );
   }
 
+  // SAFE DECLARATION: We place currentQuestion right here because we are guaranteed
+  // to have initialized and started the quiz if code execution reaches this point.
   const currentQuestion = quizQuestions[currentIdx];
 
+  // Extra guard check to prevent runtime crashes during structural re-renders
   if (!currentQuestion) return null;
 
   // --- RENDERING SCREEN 3: ACTIVE MULTIPLE CHOICE EXAM ---
@@ -261,7 +221,7 @@ export default function QuizPage() {
                 key={oIdx}
                 type="button"
                 onClick={() => handleSelectOption(oIdx)}
-                className={`w-full text-left rounded-xl border p-4 text-sm font-medium transition duration-150 cursor-pointer ${
+                className={`w-full text-left rounded-xl border p-4 text-sm font-medium transition duration-150 ${
                   isSelected
                     ? "border-emerald-500 bg-emerald-500/10 text-white shadow-md"
                     : "border-slate-800 bg-slate-950 text-slate-300 hover:border-slate-700 hover:bg-slate-900"
@@ -278,7 +238,7 @@ export default function QuizPage() {
             type="button"
             onClick={handlePrev}
             disabled={currentIdx === 0}
-            className="rounded-xl border border-slate-800 bg-slate-950 px-5 py-2.5 text-sm font-semibold text-slate-400 transition hover:bg-slate-900 hover:text-white disabled:opacity-30 disabled:pointer-events-none cursor-pointer"
+            className="rounded-xl border border-slate-800 bg-slate-950 px-5 py-2.5 text-sm font-semibold text-slate-400 transition hover:bg-slate-900 hover:text-white disabled:opacity-30 disabled:pointer-events-none"
           >
             ← Previous
           </button>
@@ -290,7 +250,7 @@ export default function QuizPage() {
               disabled={
                 Object.keys(selectedAnswers).length < quizQuestions.length
               }
-              className="rounded-xl bg-emerald-500 px-6 py-2.5 text-sm font-semibold text-slate-950 shadow-md transition hover:bg-emerald-400 disabled:opacity-40 disabled:pointer-events-none cursor-pointer"
+              className="rounded-xl bg-emerald-500 px-6 py-2.5 text-sm font-semibold text-slate-950 shadow-md transition hover:bg-emerald-400 disabled:opacity-40 disabled:pointer-events-none"
             >
               Submit Exam
             </button>
@@ -298,7 +258,7 @@ export default function QuizPage() {
             <button
               type="button"
               onClick={handleNext}
-              className="rounded-xl bg-slate-800 px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-700 cursor-pointer"
+              className="rounded-xl bg-slate-800 px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-700"
             >
               Next Step →
             </button>
